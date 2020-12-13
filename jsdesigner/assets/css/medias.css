@@ -1,0 +1,28 @@
+.clearfix:after, .rowOne:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+@media screen and (max-width: 68em){
+    .cartaoPai .cartao{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:48em){
+    .informations{
+
+        width:100%;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .imgedit{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:20em){
+   
+}

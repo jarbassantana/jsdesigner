@@ -1,0 +1,92 @@
+#secBannerinicio{
+  background-image: url(../img/fundo1.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+}
+
+
+
+#contentSec {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 620px;
+}
+#contentSec img {
+  width: 48%;
+  height: 60%;
+}
+.informations {
+  width: 48%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.521);
+  text-align: left;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.37);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+  box-sizing: border-box;
+}
+.informations h1 {
+  color: rgb(252, 252, 89);
+  font-weight: bold;
+  font-size: 46px;
+  font-style: italic;
+}
+.informations p {
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.informations span {
+  color: rgb(252, 252, 89);
+  font-weight: 300;
+}
+
+.informations strong {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.buttons a {
+  border: 1px solid rgba(255, 255, 255, 0.575);
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+  line-height: 1.2rem;
+  background-color: #f84545;
+}
+
+.buttons a:hover {
+  background-color: transparent;
+  transition: linear 0.3s;
+  color: #f2b3b3;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.fazer__orcamento{
+  margin-top: 2rem;
+}
+
+.navMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

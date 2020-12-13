@@ -1,0 +1,46 @@
+header{
+    height: 60px;
+}
+
+
+.headerPersonalization{
+    background-color: #414059;
+    
+}
+
+#flexNav a{
+    color: white;
+
+}
+
+#flexNav a:hover{
+    color: #F2B3B3;
+    transition: .3s;
+}
+
+#flexNav{
+    display: flex;  
+}
+
+.navbarNav{
+    justify-content: flex-end;
+    
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: white;
+}
+
+.nav-item{
+    padding: 0 .4rem;
+}
+
+.nav-item:last-child{
+    padding-right: 0;
+}
+
+
+.containerHeader{
+    display: flex;
+
+}

@@ -1,0 +1,57 @@
+.portfoliotTitle{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 3rem;
+    color: rgb(252, 252, 89);
+}
+
+.container__Portfolio__box{
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    box-sizing: border-box;
+    display: block;
+    width: 70%;
+}
+
+.content__Text__Portfolio{
+    margin-bottom: 2rem;
+    font-weight: 300;
+    max-width:100%;
+}
+@media(max-width:700px){
+    .figureContainer{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .figureContainer .cards{
+        width:100%;
+        height:auto;
+    }
+    
+}
+.color{
+    background-color: #f84545;
+    color: rgb(252, 252, 89);
+    width: 544px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.button__Portfolio{
+    margin: 2rem 0;
+
+}
+
+@media screen and (max-width:642px){
+    .container__Portfolio__box{
+        width: 90%;
+        margin-right: 0;
+
+    }
+    
+}

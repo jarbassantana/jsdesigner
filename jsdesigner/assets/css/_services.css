@@ -1,0 +1,87 @@
+.masterContainer{
+    padding: 0;
+}
+.containerFather{
+    padding: 0;
+    margin: 0;
+}
+.cartaoPai{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.cartao{
+    background-color: #414059;
+    max-width:350px;
+    min-width:320px;
+    height: 460px;
+    margin: 0 10px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.459);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+}
+
+.cartao img{ 
+    width: 7rem;
+    object-fit: scale-down;
+    background-color: #414059;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.cartao{
+    box-sizing:border-box;
+}
+@media(max-width:700px){
+    .cartaoPai{
+        display:flex;
+        flex-wrap:wrap;
+        margin:10px auto;
+        
+    }
+    .cartaoPai div{
+        
+        margin:10px auto;
+        box-sizing: border-box;
+        
+    }
+}
+@media(max-width:995px){
+    .cartaoPai{
+        max-width:350px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        
+    }
+    .cartaoPai div{
+        margin:10px auto;
+        width:500px;
+        height:600px;
+    }
+}
+
+.aboutServices{
+    color:rgb(252, 252, 89);
+}
+
+
+
+
+.figTitleCard{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.figTitleParagraph{
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+

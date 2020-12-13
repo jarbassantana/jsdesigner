@@ -1,0 +1,80 @@
+.contactTitle {
+    margin-top: 5rem;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(252, 252, 89);
+    font-style: italic;
+}
+
+.container__Form__Base{
+    display: flex;
+    background-color:#414059;
+    padding: 25px;
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+}
+.contactTitle__Form{
+    margin-bottom: 3rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.877);
+}
+.contactForm{
+    width: 60%;
+    
+}
+.adressContact{
+    flex: 1;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.inpPerso {
+    margin-bottom: .8rem;
+    background-color: rgba(255, 255, 255, 0.753);
+    border: none;
+    color: #fff;
+}
+
+.adress__title{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(252, 252, 89, 0.801);
+    font-weight: 700;
+}
+.adress__Paragraph{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.buttonSubmit{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  #f84545;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.425);
+}
+
+.buttonSubmit:hover{
+    background-color: transparent;
+    transition: linear 0.3s;
+    color: #f2b3b3;
+}
+
+@media screen and (max-width:642px) {
+    /* .container{
+        width: 100%;
+    } */
+    .container__Form__Base{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactForm {
+        width: 100%;
+    }
+    .adressContact{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
